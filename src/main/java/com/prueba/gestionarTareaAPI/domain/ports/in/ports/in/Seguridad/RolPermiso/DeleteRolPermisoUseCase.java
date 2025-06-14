@@ -1,7 +1,0 @@
-package com.prueba.gestionarTareaAPI.domain.ports.in.ports.in.Seguridad.RolPermiso;
-
-public interface DeleteRolPermisoUseCase {
-    boolean deleteRolPermiso(Long id);
-
-
-}
