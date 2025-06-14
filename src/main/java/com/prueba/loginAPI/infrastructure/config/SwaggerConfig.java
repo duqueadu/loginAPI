@@ -36,7 +36,10 @@ public class SwaggerConfig {
                             
                             ###  Endpoints Protegidos:
                             - Todos los demás endpoints bajo /api/**
-                            
+                             USUARIOS DE PRUEBA 
+                                {usuario = prueba2@prueba.com,clve = 12345678}
+                                {usuario = prueba1@prueba.com,clave =12345678}
+
                             ###  Instrucciones:
                             1. Registrar usuario en /api/authorization/CrearUsuario
                             2. Iniciar sesión en /api/authorization/login

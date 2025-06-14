@@ -110,7 +110,7 @@ public class authorizationController {
             if(createdUsuario == null ){
                 return new ResponseEntity<>(null, HttpStatus.CREATED);
             }
-            return new ResponseEntity<>("ok", HttpStatus.CREATED);
+            return new ResponseEntity<>("Se creo el usuario con exito", HttpStatus.CREATED);
 
 
         } catch (Exception e) {
